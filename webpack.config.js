@@ -1,10 +1,10 @@
 var path = require('path');
-
 var appRoot = path.join(__dirname, '/src');
 
-
 module.exports = {
-	entry:path.join(appRoot,'./main.js'),
+	entry:{
+		app: path.join(appRoot,'./main.js')
+	},
 	output :{
 		path: path.join(__dirname,'./dist'),
 		publicPath:'./',
