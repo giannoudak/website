@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/giannoudak/website#readme",
   "devDependencies": {
+    "css-loader": "^0.18.0",
+    "file-loader": "^0.8.4",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
     "webpack": "^1.12.1"
   }
 }
