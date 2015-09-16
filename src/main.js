@@ -1,4 +1,4 @@
-require('./second_module.js');
+require('./modules/second_module.js');
 require('./styles.css');
 
 document.write("<p>hello world giannoudak</p>");
